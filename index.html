@@ -1,142 +1,1121 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
+
 <head>
-	<title>Coming Soon 1</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-<!--===============================================================================================-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home Page - TRIPSHOP</title>
+    <link rel=icon href="assets/img/favicon.png" sizes="20x20" type="image/png">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/fonts/fontawsomepro5/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/vendor.css">
+    <link rel="stylesheet" href="assets/css/Bootstrap.css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="assets/css/daterangepicker.css">
+    <link rel="stylesheet" href="assets/css/select2.min.css">
+    <!--owl -->
+    <link rel="stylesheet" media="all" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" media="all" href="assets/css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
 </head>
+
 <body>
-	
-	
-	<div class="size1 bg0 where1-parent">
-		<!-- Coutdown -->
-		<div class="flex-c-m bg-img1 size2 where1 overlay1 where2 respon2" style="background-image: url('images/bg01.jpg');">
-			<div class="wsize2 flex-w flex-c-m cd100 js-tilt">
-				<div class="flex-col-c-m size6 bor2 m-l-10 m-r-10 m-t-15">
-					<span class="l2-txt1 p-b-9 days">20</span>
-					<span class="s2-txt4">Days</span>
-				</div>
 
-				<div class="flex-col-c-m size6 bor2 m-l-10 m-r-10 m-t-15">
-					<span class="l2-txt1 p-b-9 hours">15</span>
-					<span class="s2-txt4">Hours</span>
-				</div>
+    <!-- preloader area start -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="spinner">
+                <div class="dot1"></div>
+                <div class="dot2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- preloader area end -->
 
-				<div class="flex-col-c-m size6 bor2 m-l-10 m-r-10 m-t-15">
-					<span class="l2-txt1 p-b-9 minutes">50</span>
-					<span class="s2-txt4">Minutes</span>
-				</div>
+    <!-- search popup start-->
+    <div class="td-search-popup" id="td-search-popup">
+        <form action="#" class="search-form">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search.....">
+            </div>
+            <button type="submit" class="submit-btn"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+    <!-- search popup end-->
+    <div class="body-overlay" id="body-overlay"></div>
 
-				<div class="flex-col-c-m size6 bor2 m-l-10 m-r-10 m-t-15">
-					<span class="l2-txt1 p-b-9 seconds">39</span>
-					<span class="s2-txt4">Seconds</span>
-				</div>
-			</div>
-		</div>
-		
-		<!-- Form -->
-		<div class="size3 flex-col-sb flex-w p-l-75 p-r-75 p-t-45 p-b-45 respon1">
-			<div class="wrap-pic1">
-				<img src="images/icons/logo.png" alt="LOGO">
-			</div>
 
-			<div class="p-t-50 p-b-60">
-				<p class="m1-txt1 p-b-36">
-					Our website is <span class="m1-txt2">Coming Soon</span>, follow us for update now!
-				</p>
-
-				<form class="contact100-form validate-form">
-					<div class="wrap-input100 m-b-10 validate-input" data-validate = "Name is required">
-						<input class="s2-txt1 placeholder0 input100" type="text" name="name" placeholder="Your Name">
-						<span class="focus-input100"></span>
-					</div>
-
-					<div class="wrap-input100 m-b-20 validate-input" data-validate = "Email is required: ex@abc.xyz">
-						<input class="s2-txt1 placeholder0 input100" type="text" name="email" placeholder="Your Email Address">
-						<span class="focus-input100"></span>
-					</div>
-
-					<div class="w-full">
-						<button class="flex-c-m s2-txt2 size4 bg1 bor1 hov1 trans-04">
-							Subscribe
-						</button>
-					</div>
-				</form>
-
-			
-			</div>
-<!--
-			<div class="flex-w">
-				<a href="#" class="flex-c-m size5 bg3 how1 trans-04 m-r-5">
-					<i class="fa fa-facebook"></i>
-				</a>
-
-				<a href="#" class="flex-c-m size5 bg4 how1 trans-04 m-r-5">
-					<i class="fa fa-twitter"></i>
-				</a>
-
-				<a href="#" class="flex-c-m size5 bg5 how1 trans-04 m-r-5">
-					<i class="fa fa-youtube-play"></i>
-				</a>
-			</div>
--->
-		</div>
-	</div>
+    <!-- navbar start -->
+    <div class="navbar-area">
+        <div class="top-nav">
+            <div class="container">
+                <div class="d-flex align-items-center">
+                    <div class="rght">
+                        <a href="#" class="topIco lnk"><i class="fal fa-cog mr-2"></i>  إدارة الحجوزات  </a>
+                        <a href="#" class=" topIco">
+                            SAR <i class="fal fa-money-bill"></i>
+                        </a>
+                        <a href="#" class=" topIco">
+                            <i class="fal fa-question-circle mr-2"></i>
+                        </a>
 
 
 
-	
+                    </div>
+                    <div class="lft ml-auto text-right">
 
-<!--===============================================================================================-->	
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/countdowntime/moment.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone.min.js"></script>
-	<script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
-	<script src="vendor/countdowntime/countdowntime.js"></script>
-	<script>
-		$('.cd100').countdown100({
-			/*Set Endtime here*/
-			/*Endtime must be > current time*/
-			endtimeYear: 0,
-			endtimeMonth: 0,
-			endtimeDate: 20,
-			endtimeHours: 15,
-			endtimeMinutes: 0,
-			endtimeSeconds: 0,
-			timeZone: "" 
-			// ex:  timeZone: "America/New_York"
-			//go to " http://momentjs.com/timezone/ " to get timezone
-		});
-	</script>
-<!--===============================================================================================-->
-	<script src="vendor/tilt/tilt.jquery.min.js"></script>
-	<script >
-		$('.js-tilt').tilt({
-			scale: 1.1
-		})
-	</script>
-<!--===============================================================================================-->
-	<script src="js/main.js"></script>
+                        <a href="#" class="lang topIco">
+                            ENGLISH <i class="fal fa-globe"></i>
+                        </a>
+                        <a href="#" class=" topIco">
+                            <i class="fal fa-shopping-basket"></i> <b class="no">5</b>
+                        </a>
 
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-area-1  navbar-expand-lg">
+            <div class="container nav-container">
+
+                <div class="nav-start">
+                    <div class="logo">
+                        <a href="index.html"><img src="assets/img/logo.png" alt="img"></a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="edumint_main_menu">
+
+
+                        <ul class="navbar-nav menu-open ">
+                            <li class="">
+                                <a href="Index.html">الرئيسية</a>
+
+                            </li>
+                            <li class="">
+                                <a href="my-bookings.html">حجوزاتي</a>
+
+                            </li>
+                            <li class="">
+                                <a href="#">المحفظة : 0 ريال</a>
+
+                            </li>
+                            <li class="">
+                                <a href="profile.html">الملف الشخصي</a>
+                                <!-- <ul class="sub-menu">
+                                <li><a href="#">item</a></li>
+                                <li><a href="#"> item</a></li>
+                            </ul>
+                                -->
+                            </li>
+                            <li><a href="logIn.html"> تسجيل الخروج</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="nav-rght-part ">
+                    <div class="welcomeBlck">
+                        <figure><img alt="" src="assets/img/userLine.png"></figure>
+                        <p><span>مرحبا :</span> أحمد محمد ابراهيم </p>
+                    </div>
+                    <div class="responsive-mobile-menu">
+                        <button class="menu toggle-btn d-block d-lg-none" data-target="#edumint_main_menu" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="icon-left"></span>
+                            <span class="icon-right"></span>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- navbar end -->
+
+
+    <!-- banner start -->
+    <div class="banner-area banner-area-1">
+        <div class="slider-owl owl-carousel">
+            <div class="item">
+                <div class="banner_section " style="background: url(assets/img/banner/1.jpg)">
+                    <div class="container">
+                        <div class="banner_content">
+
+                            <p>
+                                مرحباً - قم بإنشاء
+                            </p>
+                            <h1> باقة الفنادق الخاصة بك
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="banner_section " style="background: url(assets/img/banner/1.jpg)">
+                    <div class="container">
+                        <div class="banner_content">
+
+                            <p>
+                                مرحبا بكم في موقعنا
+                            </p>
+                            <h1> انشئ باقة الفنادق الخاصة بك
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tabs-slider">
+            <div class="tabs-overflow">
+                <div class="tabs-con">
+                    <div class="container">
+                        <ul class="nav nav-tabs ">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#tab1">
+                                    <figure><img alt="" src="assets/img/icon1.png"> </figure>
+                                    <span>الفنادق</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#tab2">
+                                    <figure><img alt="" src="assets/img/icon2.png"> </figure>
+                                    <span>نقل </span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#tab3">
+                                    <figure><img alt="" src="assets/img/icon3.png"> </figure>
+                                    <span>أنشطه </span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#tab4">
+                                    <figure><img alt="" src="assets/img/icon4.png"> </figure>
+                                    <span>رحلات طيران </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="tab1">
+                    <div class="container">
+                        <div class="row align-items-end">
+                            <div class="col-md-6 col-lg">
+                                <div class="form-group">
+                                    <div class="form-item">
+                                        <label>اسم المدينة <span class="star">*</span></label>
+                                        <select class="form-control multiSelect">
+                                            <option>
+                                                الرياض
+                                            </option>
+                                            <option>
+                                                جدة
+                                            </option>
+                                            <option>الطائف </option>
+                                            <option>المدينة </option>
+
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg">
+                                <div class="form-group">
+                                    <div class="form-item">
+                                        <label> الدخول <span class="star">*</span></label>
+                                        <input type="text" class="form-control datePick" placeholder=" arrival time " />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg">
+                                <div class="form-group">
+                                    <div class="form-item">
+                                        <label> المغادرة <span class="star">*</span></label>
+                                        <input type="text" class="form-control datePick" placeholder=" arrival time " />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg">
+                                <div class="form-group">
+                                    <div class="form-item">
+                                        <label> الجنسية <span class="star">*</span></label>
+                                        <select class="form-control multiSelect">
+                                            <option>
+                                                Sao Tome and Principe (ST)
+                                            </option>
+                                            <option>
+                                                Senegal (SN)
+                                            </option>
+                                            <option> Saint Pierre and Miquelon (PM) </option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg">
+                                <div class="form-group">
+                                    <div class="form-item">
+                                        <label> بلد الإقامة <span class="star">*</span></label>
+                                        <select class="form-control multiSelect">
+                                            <option>
+                                                Sao Tome and Principe (ST)
+                                            </option>
+                                            <option>
+                                                Senegal (SN)
+                                            </option>
+                                            <option> Saint Pierre and Miquelon (PM) </option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg">
+                                <div class="form-group">
+
+                                    <div class="form-item">
+                                        <label>الغرف <span class="star">*</span></label>
+                                        <div class="select_box cmn_InputArrow">
+                                            <input type="text" name="selectRooms" id="selectRooms" onclick="showOptions(this)" value="" class="form-control  travell_input e_input selectpicker selectpicker form2" placeholder="1 Room, 2 Adult 0, Children" style="font-size: 15px;" readonly>
+                                            <input type="hidden" name="roomarray" id="roomarray" value='[{"numberofAdults":"1","noOfChildren":"0"}]'>
+                                            <span class="arrow_icon"></span>
+                                        </div>
+                                        <div class="travell_box d-none">
+                                            <div id="div1" class="contents">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+                                                        <div class="textboxes ">
+                                                            <div class='row rowdata' id="row1">
+                                                                <div class='col-sm-12 pad_t' id='rowdatas'>
+                                                                    <label>Room 1</label>
+                                                                </div>
+                                                                <div class='col-sm-6 travlrFld'>
+                                                                    <label>Adult</label>
+                                                                    <select class='numberofAdults  form-control show-menu-arrow' id="numberofAdults1" onchange='select_adults(this);'>
+                                                                        <option>1</option>
+                                                                        <option>2</option>
+                                                                        <option>3</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class='col-sm-6 travlrFld'>
+                                                                    <label>Child</label>
+                                                                    <select class='dropdownchild  form-control show-menu-arrow' id="noOfChilds1" onchange='select_child(this);'>
+                                                                        <option>0</option>
+                                                                        <option>1</option>
+                                                                        <option>2</option>
+                                                                        <option>3</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="col-md-12"></div>
+                                                                <div class='childages col-md-4' id="childages1"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="table"></div>
+                                                        <div class="pax-bottom-box">
+                                                            <a class="btn btn-base" id="add_btn" type="button" id="add" onclick="add_rooms()">Add Room</a>
+                                                            <a class="btn btn-base btnstye2" id="submit" onclick="submit_rooms()">Done</a>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg">
+                                <div class="form-group"><a href="#" class="btn btn-base btnstye2 w-100"> بحث</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="tab2">
+                    <div class="container">
+                        <div class="row align-items-end">
+                            <div class="col-md-5 col-lg-5">
+                                <div class="form-group">
+                                    <div class="form-item">
+                                        <label> من <span class="star">*</span></label>
+                                        <input class="form-control" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-5 col-lg-5">
+                                <div class="form-group">
+                                    <div class="form-item">
+                                        <label> الى <span class="star">*</span></label>
+                                        <input class="form-control" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-lg-2">
+                                <div class="form-group"><a href="#" class="btn btn-base btnstye2 w-100"> بحث</a></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="tab-pane fade" id="tab3">
+                    <div class="container">
+                        <div class="row align-items-end">
+                            <div class="col-md-6 col-lg">
+                                <div class="form-group">
+                                    <div class="form-item">
+                                        <label> الموقع <span class="star">*</span></label>
+                                        <input class="form-control" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg">
+                                <div class="form-group">
+                                    <div class="form-item">
+                                        <label> التاريخ من <span class="star">*</span></label>
+                                        <input type="text" class="form-control datePick" placeholder=" arrival time " />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg">
+                                <div class="form-group">
+                                    <div class="form-item">
+                                        <label> التاريخ الى <span class="star">*</span></label>
+                                        <input type="text" class="form-control datePick" placeholder=" arrival time " />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="form-group">
+                                    <div class="form-item">
+                                        <label> عدد الضيوف <span class="star">*</span></label>
+                                        <input class="form-control" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg">
+                                <div class="form-group"><a href="#" class="btn btn-base btnstye2 w-100"> بحث</a></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="tab-pane fade" id="tab4">
+                    <div class="container">
+                        <div class="row align-items-end">
+                            <div class="col-md-6 col-lg">
+                                <div class="form-group">
+                                    <div class="form-item">
+                                        <label> من <span class="star">*</span></label>
+                                        <input class="form-control" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg">
+                                <div class="form-group">
+                                    <div class="form-item">
+                                        <label> الى <span class="star">*</span></label>
+                                        <input class="form-control" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg">
+                                <div class="form-group">
+                                    <div class="form-item">
+                                        <label> يوم المغادرة <span class="star">*</span></label>
+                                        <input type="text" class="form-control datePick" placeholder=" " />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg">
+                                <div class="form-group">
+                                    <div class="form-item">
+                                        <label> عدد المسافرين و الفئة <span class="star">*</span></label>
+                                        <input class="form-control" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-2">
+                                <div class="form-group"><a href="#" class="btn btn-base btnstye2 w-100"> بحث</a></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+    <div class="pre-banner">
+        <div class="container">
+            <p class="blockTit"><span> <b>عروض</b> المدن الكبرى </span> تتيح لك باقاتنا الشهيرة الابتعاد عن الروتين وقضاء الوقت مع الأصدقاء والعائلة.
+            </p>
+
+            <div class="owl-Pics owl-carousel">
+
+                <div class="item">
+                    <a href="#" class="exoticBlck">
+                        <img src="assets/img/pho1.jpg" alt="">
+                        <div class="txtCon">
+                            <p><i class="fal fa-map-marker-alt"></i> دبي</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#" class="exoticBlck">
+                        <img src="assets/img/pho2.jpg" alt="">
+                        <div class="txtCon">
+                            <p><i class="fal fa-map-marker-alt"></i> إيطاليا</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#" class="exoticBlck">
+                        <img src="assets/img/pho3.jpg" alt="">
+                        <div class="txtCon">
+                            <p><i class="fal fa-map-marker-alt"></i> فرنسا</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#" class="exoticBlck">
+                        <img src="assets/img/pho4.jpg" alt="">
+                        <div class="txtCon">
+                            <p><i class="fal fa-map-marker-alt"></i> اليونان</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#" class="exoticBlck">
+                        <img src="assets/img/pho5.jpg" alt="">
+                        <div class="txtCon">
+                            <p><i class="fal fa-map-marker-alt"></i> كندا</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#" class="exoticBlck">
+                        <img src="assets/img/pho6.jpg" alt="">
+                        <div class="txtCon">
+                            <p><i class="fal fa-map-marker-alt"></i> جزر المالديف</p>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="whyChoose">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+
+                    <div class="whyMainIco">
+                        <img alt="" src="assets/img/choosePic.png" />
+
+                        <h3>لماذا تختار <span>Tripshop</span> ؟</h3>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="txtCon">
+                        <h3>أسباب عديدة تجعلك تختار TRIPSHOP</h3>
+                        <p>يوفر موقع تجربة حجز سلسة عبر الإنترنت. تعد حجوزات الفنادق والنقل والخدمات الأرضية المعتمدة من وزارةالحج من خلال الموقع الالكتروني على الاجهزه الذكيه تجربة سهله و ممتعه للعملاء.</p>
+                    </div>
+                    <div class="whyIcoCon">
+                        <a href="#" class="whyItem">
+                            <div class="imgCon">
+                                <img alt="" src="assets/img/whyIco1.png" />
+                            </div>
+                            <p>حجوزات سهلة</p>
+                        </a>
+                        <a href="#" class="whyItem">
+                            <div class="imgCon">
+                                <img alt="" src="assets/img/whyIco2.png" />
+                            </div>
+                            <p> أفضل سعر</p>
+                        </a>
+                        <a href="#" class="whyItem">
+                            <div class="imgCon">
+                                <img alt="" src="assets/img/whyIco3.png" />
+                            </div>
+                            <p> دعم <span class="ltr-Txt">7/24</span></p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="filterationCon ">
+        <div class="container">
+
+            <p class="blockTit"><span> <b>أكثر</b>   الباقات شهرة </span> تتيح لك باقاتنا الشهيرة الابتعاد عن الروتين وقضاء الوقت مع الأصدقاء والعائلة.
+            </p>
+
+
+
+            <div align="filterTb">
+                <a class="filter-button active" data-filter="type1">  فرد</a>
+                <a class="filter-button" data-filter="type2">  عائلة </a>
+                <a class="filter-button" data-filter="type3">  Couple</a>
+
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 filter type1 show">
+                    <div class="booking-block ba-block-item">
+                        <div class="babe-block-content">
+                            <div class="post-image">
+                                <a class="post-link" href="hotel-single.html"> <img class=" lazyloaded" src="assets/img/pic2.jpg" alt="Brooklyn Christmas Lights Tour"> </a>
+                                <div class="item-labels"><span class="item-label item-featured">636.00 ريال </span></div>
+
+                            </div>
+                            <div class="booking-content">
+                                <div class="content-top">
+                                    <div class="ba-meta">
+                                        <div class="meta-lft">
+                                            <a href="#">5 يوم </a>
+                                            <a href="#"> 2 شخص بالغ</a>
+                                        </div>
+                                        <div class="meta-rht">
+                                            <a href="#"><i class="fal fa-bus"></i></a>
+                                            <a href="#"><i class="fal fa-hotel"></i></a>
+                                            <a href="#"><i class="fal fa-utensils "></i></a>
+                                            <a href="#"><i class="fal fa-plus-circle"></i></a>
+                                            <a href="#"><i class="fal fa-map-marker-alt"></i></a>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <h3 class="title"> <a href="#"> غرفه ديلوكس</a></h3>
+                                <div class="ba-address"> <i class="fas fa-map-marker-alt"></i><span>دبي - الامارات العربية المتجدة</span></div>
+                                <div class="text-center bb"> <a href="#" class="btn btn-base btn-sm mt-3">المزيد</a> </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 filter type1 show">
+                    <div class="booking-block ba-block-item">
+                        <div class="babe-block-content">
+                            <div class="post-image">
+                                <a class="post-link" href="hotel-single.html"> <img class=" lazyloaded" src="assets/img/pic3.jpg" alt="Brooklyn Christmas Lights Tour"> </a>
+                                <div class="item-labels"><span class="item-label item-featured">532.00 ريال </span></div>
+
+                            </div>
+                            <div class="booking-content">
+                                <div class="content-top">
+                                    <div class="ba-meta">
+                                        <div class="meta-lft">
+                                            <a href="#">4 يوم </a>
+                                            <a href="#"> 2 شخص بالغ</a>
+                                        </div>
+                                        <div class="meta-rht">
+                                            <a href="#"><i class="fal fa-bus"></i></a>
+                                            <a href="#"><i class="fal fa-hotel"></i></a>
+                                            <a href="#"><i class="fal fa-utensils "></i></a>
+                                            <a href="#"><i class="fal fa-plus-circle"></i></a>
+                                            <a href="#"><i class="fal fa-map-marker-alt"></i></a>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <h3 class="title"> <a href="#"> غرفة مزدوجة</a></h3>
+                                <div class="ba-address"> <i class="fas fa-map-marker-alt"></i><span>جدة - المملكة العربية السعودية</span></div>
+                                <div class="text-center bb"> <a href="#" class="btn btn-base btn-sm mt-3">المزيد</a> </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 filter type1 show">
+                    <div class="booking-block ba-block-item">
+                        <div class="babe-block-content">
+                            <div class="post-image">
+                                <a class="post-link" href="hotel-single.html"> <img class=" lazyloaded" src="assets/img/pic1.jpg" alt="Brooklyn Christmas Lights Tour"> </a>
+                                <div class="item-labels"><span class="item-label item-featured">446.00 ريال </span></div>
+
+                            </div>
+                            <div class="booking-content">
+                                <div class="content-top">
+                                    <div class="ba-meta">
+                                        <div class="meta-lft">
+                                            <a href="#">7 يوم </a>
+                                            <a href="#"> 1 شخص بالغ</a>
+                                        </div>
+                                        <div class="meta-rht">
+                                            <a href="#"><i class="fal fa-bus"></i></a>
+                                            <a href="#"><i class="fal fa-hotel"></i></a>
+                                            <a href="#"><i class="fal fa-utensils "></i></a>
+                                            <a href="#"><i class="fal fa-plus-circle"></i></a>
+                                            <a href="#"><i class="fal fa-map-marker-alt"></i></a>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <h3 class="title"> <a href="#"> غرفة فردية</a></h3>
+                                <div class="ba-address"> <i class="fas fa-map-marker-alt"></i><span>الإسكندرية - جمهورية مصر العربية</span></div>
+                                <div class="text-center bb"> <a href="#" class="btn btn-base btn-sm mt-3">المزيد</a> </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 filter type2">
+                    <div class="booking-block ba-block-item">
+                        <div class="babe-block-content">
+                            <div class="post-image">
+                                <a class="post-link" href="hotel-single.html"> <img class=" lazyloaded" src="assets/img/pic3.jpg" alt="Brooklyn Christmas Lights Tour"> </a>
+                                <div class="item-labels"><span class="item-label item-featured">432.00 ريال </span></div>
+
+                            </div>
+                            <div class="booking-content">
+                                <div class="content-top">
+                                    <div class="ba-meta">
+                                        <div class="meta-lft">
+                                            <a href="#">2 يوم </a>
+                                            <a href="#"> 2 شخص بالغ</a>
+                                        </div>
+                                        <div class="meta-rht">
+                                            <a href="#"><i class="fal fa-bus"></i></a>
+                                            <a href="#"><i class="fal fa-hotel"></i></a>
+                                            <a href="#"><i class="fal fa-utensils "></i></a>
+                                            <a href="#"><i class="fal fa-plus-circle"></i></a>
+                                            <a href="#"><i class="fal fa-map-marker-alt"></i></a>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <h3 class="title"> <a href="#"> غرفة ديلوكس</a></h3>
+                                <div class="ba-address"> <i class="fas fa-map-marker-alt"></i><span>ابو ظبي - الامارات العربية المتحدة</span></div>
+                                <div class="text-center bb"> <a href="#" class="btn btn-base btn-sm mt-3">المزيد</a> </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 filter type2">
+                    <div class="booking-block ba-block-item">
+                        <div class="babe-block-content">
+                            <div class="post-image">
+                                <a class="post-link" href="hotel-single.html"> <img class=" lazyloaded" src="assets/img/pic2.jpg" alt="Brooklyn Christmas Lights Tour"> </a>
+                                <div class="item-labels"><span class="item-label item-featured">446.00 ريال </span></div>
+
+                            </div>
+                            <div class="booking-content">
+                                <div class="content-top">
+                                    <div class="ba-meta">
+                                        <div class="meta-lft">
+                                            <a href="#">8 يوم </a>
+                                            <a href="#"> 2 شخص بالغ</a>
+                                        </div>
+                                        <div class="meta-rht">
+                                            <a href="#"><i class="fal fa-bus"></i></a>
+                                            <a href="#"><i class="fal fa-hotel"></i></a>
+                                            <a href="#"><i class="fal fa-utensils "></i></a>
+                                            <a href="#"><i class="fal fa-plus-circle"></i></a>
+                                            <a href="#"><i class="fal fa-map-marker-alt"></i></a>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <h3 class="title"> <a href="#"> غرفة فردية</a></h3>
+                                <div class="ba-address"> <i class="fas fa-map-marker-alt"></i><span>جدة - المملكة العربية السعودية</span></div>
+                                <div class="text-center bb"> <a href="#" class="btn btn-base btn-sm mt-3">المزيد</a> </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 filter type2">
+                    <div class="booking-block ba-block-item">
+                        <div class="babe-block-content">
+                            <div class="post-image">
+                                <a class="post-link" href="hotel-single.html"> <img class=" lazyloaded" src="assets/img/pic1.jpg" alt="Brooklyn Christmas Lights Tour"> </a>
+                                <div class="item-labels"><span class="item-label item-featured">722.00 ريال </span></div>
+
+                            </div>
+                            <div class="booking-content">
+                                <div class="content-top">
+                                    <div class="ba-meta">
+                                        <div class="meta-lft">
+                                            <a href="#">2 يوم </a>
+                                            <a href="#"> 2 شخص بالغ</a>
+                                        </div>
+                                        <div class="meta-rht">
+                                            <a href="#"><i class="fal fa-bus"></i></a>
+                                            <a href="#"><i class="fal fa-hotel"></i></a>
+                                            <a href="#"><i class="fal fa-utensils "></i></a>
+                                            <a href="#"><i class="fal fa-plus-circle"></i></a>
+                                            <a href="#"><i class="fal fa-map-marker-alt"></i></a>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <h3 class="title"> <a href="#"> غرفة فردية</a></h3>
+                                <div class="ba-address"> <i class="fas fa-map-marker-alt"></i><span>القاهرة - جمهورية مصر العربية</span></div>
+                                <div class="text-center bb"> <a href="#" class="btn btn-base btn-sm mt-3">المزيد</a> </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 filter type3">
+                    <div class="booking-block ba-block-item">
+                        <div class="babe-block-content">
+                            <div class="post-image">
+                                <a class="post-link" href="hotel-single.html"> <img class=" lazyloaded" src="assets/img/pic1.jpg" alt="Brooklyn Christmas Lights Tour"> </a>
+                                <div class="item-labels"><span class="item-label item-featured">743.00 ريال </span></div>
+
+                            </div>
+                            <div class="booking-content">
+                                <div class="content-top">
+                                    <div class="ba-meta">
+                                        <div class="meta-lft">
+                                            <a href="#">5 يوم </a>
+                                            <a href="#"> 2 شخص بالغ</a>
+                                        </div>
+                                        <div class="meta-rht">
+                                            <a href="#"><i class="fal fa-bus"></i></a>
+                                            <a href="#"><i class="fal fa-hotel"></i></a>
+                                            <a href="#"><i class="fal fa-utensils "></i></a>
+                                            <a href="#"><i class="fal fa-plus-circle"></i></a>
+                                            <a href="#"><i class="fal fa-map-marker-alt"></i></a>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <h3 class="title"> <a href="#"> غرفة ديلوكس</a></h3>
+                                <div class="ba-address"> <i class="fas fa-map-marker-alt"></i><span>جدة - المملكة العربية السعودية</span></div>
+                                <div class="text-center bb"> <a href="#" class="btn btn-base btn-sm mt-3">المزيد</a> </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-6 filter type3">
+                    <div class="booking-block ba-block-item">
+                        <div class="babe-block-content">
+                            <div class="post-image">
+                                <a class="post-link" href="hotel-single.html"> <img class=" lazyloaded" src="assets/img/pic3.jpg" alt="Brooklyn Christmas Lights Tour"> </a>
+                                <div class="item-labels"><span class="item-label item-featured">446.00 ريال </span></div>
+
+                            </div>
+                            <div class="booking-content">
+                                <div class="content-top">
+                                    <div class="ba-meta">
+                                        <div class="meta-lft">
+                                            <a href="#">2 يوم </a>
+                                            <a href="#"> 2 شخص بالغ</a>
+                                        </div>
+                                        <div class="meta-rht">
+                                            <a href="#"><i class="fal fa-bus"></i></a>
+                                            <a href="#"><i class="fal fa-hotel"></i></a>
+                                            <a href="#"><i class="fal fa-utensils "></i></a>
+                                            <a href="#"><i class="fal fa-plus-circle"></i></a>
+                                            <a href="#"><i class="fal fa-map-marker-alt"></i></a>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                               <h3 class="title"> <a href="#"> غرفة ديلوكس</a></h3>
+                                <div class="ba-address"> <i class="fas fa-map-marker-alt"></i><span>جدة - المملكة العربية السعودية</span></div>
+                                <div class="text-center bb">
+                                    <a href="#" class="btn btn-base btn-sm mt-3">المزيد</a> </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+    <footer class="footer bg-heading bg-img">
+        <div class="container p-relative">
+            <div class="footer-contact">
+                <h2> حمل تطبيق الهاتف  للاندرويد و ال IOS</h2>
+                <div class="downLnks">
+                    <a href="#"> <img alt="" src="assets/img/download-apple.png"></a>
+                    <a href="#"> <img alt="" src="assets/img/download-android.png"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-primary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-5 footer-widget footer-widget-about">
+                        <div class="footer-widget__content"> <img src="assets/img/logo.png" alt="logo" class="mb-30 w-65">
+                            <p class="color-gray mb-20"> وُضعت أول لَبنة بناء لشركة مدارات التواصل في عام 2015 لتشارك بكفاءة في تطوير وتأهيل البنى التحتية للأعمال الإلكترونية (البرمجيات؟) وزيادة الوعي بالمزايا التي تلي تطوير الأعمال تكنولوجياً باستخدام البرمجيات. </p>
+                            <ul class="social-icons list-unstyled ">
+                                <li><a href="#"><i class="fal fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fal fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fal fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fal fa-instagram"></i></a></li>
+                            </ul>
+                            <!-- /.social-icons -->
+                        </div>
+                        <!-- /.footer-widget__content -->
+                    </div>
+                    <!-- /.col-xl-2 -->
+                    <div class="col-sm-6 col-md-4 col-lg-2 footer-widget footer-widget-nav">
+                        <h6 class="footer-widget__title"> روابط سريعه</h6>
+                        <div class="footer-widget__content">
+                            <ul class="list-unstyled">
+                                <li><a href="#">الرئيسية</a></li>
+                                <li><a href="#">نبذه عنا</a></li>
+                                <li><a href="#"> أسئلة متكررة</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- /.col-lg-2 -->
+
+                    <!-- /.col-lg-2 -->
+                    <div class="col-sm-6 col-md-4 col-lg-2 footer-widget footer-widget-nav">
+                        <h6 class="footer-widget__title"> سياسات الشركة </h6>
+                        <div class="footer-widget__content">
+                            <ul class="list-unstyled">
+                                <li><a href="#">الشروط والاحكام</a></li>
+                                <li><a href="#"> سياسة الخصوصية</a></li>
+                                <li><a href="#"> اتصل بنا </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 footer-widget footer-widget-nav">
+                        <h6 class="footer-widget__title"> تواصل سريع</h6>
+                        <div class="footer-widget__content">
+                            <nav>
+                                <ul class="list-unstyled contact">
+                                    <li><a href="tel:+966920007915" class="ltr-Txt"><i  class="fal fa-phone-alt"></i> <span class="ltr-txt">+966-920007915</span></a> </li>
+                                    <li><a href="mailto: customercare@.com"><i  class="fal fa-envelope"></i> customercare@.com</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <!-- /.footer-widget__content -->
+                    </div>
+                    <!-- /.col-lg-2 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.footer-primary -->
+        <div class="footer-secondary">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-sm-12 col-md-6 col-lg-6 "> <span class="fz-14"> جميع الحقوق محفوظة لدى شركة تريب شوب © 2022</span> </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6  text-right">
+                        <div class="footerLnks">
+                            <a href="#"><img alt="" src="assets/img/mada-icon.png" /></a>
+                            <a href="#"><img alt="" src="assets/img/master-icon.png" /></a>
+                            <a href="#"><img alt="" src="assets/img/visa-icon.png" /></a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="text-center"> </div>
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.footer-secondary -->
+    </footer>
+
+    <!-- back to top area start -->
+    <div class="back-to-top">
+        <span class="back-top"><i class="fa fa-angle-up"></i></span>
+    </div>
+
+
+    <!-- all plugins here -->
+    <script src="assets/js/vendor.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
+    <script src="assets/js/moment.min.js"></script>
+    <script src="assets/js/daterangepicker.js"></script>
+    <script src="assets/js/select2.min.js"></script>
+    <!-- owl -->
+    <script src="assets/js/owl.carousel.js"></script>
+    <script src="assets/js/main.js"></script>
+    <!--<script type="text/javascript" src="https://i9x5w9i2.stackpathcdn.com/config/en/js_alerts.js?ver=1"></script>-->
+    <!-- <script src="assets/js/indexJs.js"></script>-->
+
+    <script>
+        $(document).ready(function() {
+            $('.slider-owl').owlCarousel({
+                items: 2,
+                loop: true,
+                animateOut: 'fadeOut ',
+                animateIn: 'fadeIn',
+                margin: 0,
+                smartSpeed: 8000,
+                autoplayTimeout: 9000,
+                autoplaySpeed: 8000,
+                autoplay: true,
+                autoplayHoverPause: true,
+                touchDrag: false,
+                mouseDrag: false,
+                nav: false,
+                dots: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        touchDrag: true,
+                        mouseDrag: true,
+                    },
+                    600: {
+                        items: 1,
+                        touchDrag: true,
+                        mouseDrag: true,
+                    },
+                    768: {
+                        items: 1,
+                        touchDrag: true,
+                        mouseDrag: true,
+                    },
+                    992: {
+                        items: 1
+                    },
+                    1200: {
+                        items: 1
+                    },
+                    1400: {
+                        items: 1
+                    }
+                }
+            });
+            $('.owl-Pics').owlCarousel({
+                items: 3,
+                loop: true,
+                margin: 40,
+                /* smartSpeed: 500,
+                 autoplayTimeout: 2000,
+                 autoplaySpeed: 8000,*/
+                autoplay: true,
+                autoplayHoverPause: true,
+                touchDrag: true,
+                mouseDrag: true,
+                nav: false,
+                dots: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        touchDrag: true,
+                        mouseDrag: true,
+                    },
+                    600: {
+                        items: 1,
+                        touchDrag: true,
+                        mouseDrag: true,
+                    },
+                    768: {
+                        items: 2,
+                        touchDrag: true,
+                        mouseDrag: true,
+                    },
+                    992: {
+                        items: 2
+                    },
+                    1200: {
+                        items: 3
+                    },
+                    1400: {
+                        items: 3
+                    }
+                }
+            });
+
+            $(".datePick").daterangepicker({
+                singleDatePicker: true,
+                opens: 'right',
+                locale: {
+                    format: 'DD/MM/YYYY',
+                }
+            });
+
+            $('.multiSelect').select2({
+                placeholder: 'Select'
+            });
+            /*$(".dropdownLnk").click(function() {
+                $(this).parent().find('.dropdown-menu').addClass("show");
+
+                return false;
+            });*/
+
+
+        });
+
+        $(".dropdownLnk").on('click', function() {
+            $(this).parent().find('.dropdown-menu').toggle();
+            return false;
+        });
+        $(".collaps eLnk").on('click', function() {
+            $(this).parents(".collCon").find(".collapseBox").toggle();
+            return false;
+        });
+
+        $(document).click(function(e) {
+            if (!$(e.target).hasClass("toggle-dropdown") && !$(e.target).hasClass("dropdownLnk") && $(e.target).closest(".dropdown-menu").length === 0) {
+                $(".dropdown-menu").hide();
+            }
+
+        });
+        $(document).ready(function() {
+
+            //$('.filter').addClass("show");
+            $(".filter-button").click(function() {
+
+                $(".filter-button").removeClass("active");
+                $(this).addClass("active");
+
+                var value = $(this).attr('data-filter');
+
+                if (value == "all") {
+                    //$('.filter').removeClass('hidden');
+                    $('.filter').addClass("show");
+                } else {
+                    //            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+                    //            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+                    $(".filter").not('.' + value).removeClass("show");
+                    $('.filter').filter('.' + value).addClass("show");
+
+                }
+                return false;
+            });
+
+
+        });
+
+    </script>
 </body>
+
 </html>
